@@ -1,0 +1,132 @@
+/* Allgemeine Stile */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    max-width: 85vw;
+    margin: 0 auto;
+    color: #ffffff;
+    line-height: 1.6;
+    background-color: #333;
+}
+
+/* Header und Navigation */
+header {
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.header-bild{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.überschrift{
+    text-align: center;
+    line-height: 2;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Galerie-Bereich */
+.gallery {
+    padding: 2rem;
+    text-align: center;
+    background-color: #000000;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    gap: 0;
+}
+
+.gallery-grid img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    padding: 1rem;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+}
+
+.footer h4{
+    margin-bottom: 2%;
+}
+
+.about{
+    text-align: left;
+}
+
+.footer-list{
+    list-style: none;
+}
+
+.footer-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    text-decoration: underline;
+}
+
+.bottom{
+    margin-top: 2%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+}
