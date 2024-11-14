@@ -5,72 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foto Baden - Beispiel</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-
-    <!-- Header-Bereich -->
-    <header>
-        <img src="/Bilder/Strand-wide-sw-low.JPG" alt="Bild eines Strandes" class="header-bild">
-        <br>
-        <div class="überschrift">
-            <h1>Foto Baden</h1>
-            <h4>Fotografie aus Leidenschaft</h4>
-        </div>
-        <br>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="collection.html">Collections</a></li>
-                <li><a href="equipment.html">Equipment</a></li>
-            </ul>
-        </nav>
-        
-    </header>
-
-    <!-- Hero-Bereich -->
-    
-
-    <!-- Galerie-Bereich -->
-    <section id="gallery" class="gallery">
-        <div class="gallery-grid">
-            <img src="/Bilder/Rudolfs BMW-low.JPG" alt="Beispielbild 1">
-            <img src="/Bilder/Reben-low.JPG" alt="Beispielbild 2">
-            <img src="bild3.jpg" alt="Beispielbild 3">
-            <img src="/Bilder/Haus-low.JPG" alt="Beispielbild 4">
-            <img src="/Bilder/Festival.JPG" alt="Beispielbild 5">
-            <img src="/Bilder/Mischpult-low.JPG" alt="Beispielbild 6">
-        </div>
-    </section>
-
-    <!-- Dienstleistungen-Bereich -->
-    
-
-    <!-- Kontakt-Bereich -->
-    
-
-    <!-- Footer-Bereich -->
-    <footer>
-        <div class="footer">
-            <div>
-                <h4>Quick Links</h4>
+    <section style="background-color: black;">
+        <!-- Header-Bereich -->
+        <header>
+            <img src="/Bilder/Strand-wide-sw-low.JPG" alt="Bild eines Strandes" class="header-bild">
+            <br>
+            <div class="überschrift">
+                <h1>Foto Baden</h1>
+                <h4>Fotografie aus Leidenschaft</h4>
             </div>
-            <div>
-                <h4>About</h4>
-                <p class="about">
-                    Mein Name ist Tobi. Ich bin ein Technik interessierter Hobbyfotograf mit der Liebe zur Perfektion. 
-                    Neben meinem Vollzeitjob als Fachinformatiker liebe ich es alle Möglichkeiten zu nutzen um einen guten Shot aus einem kleinen Teil meines Lebens digital zu verfestigen und hier mit euch zu teilen.
-                </p>
-            </div>
-            <div>
-                <h4>More</h4>
-                <ul class="footer-list">
-                    <li><a href="">Impressum</a></li>
-                    <li><a href="">Datenschutzerklärung</a></li>
+            <br>
+            <nav>
+                <ul>
+                    <li><a href="collection.html">Collections</a></li>
+                    <li><a href="equipment.html">Equipment</a></li>
                 </ul>
-            </div>
-        </div>
-        <p class="bottom">&copy; 2024 Foto Baden. Alle Rechte vorbehalten.</p>
-    </footer>
+            </nav>
+            
+        </header>
 
+        <!-- Hero-Bereich -->
+        
+
+        <!-- Galerie-Bereich -->
+        <section id="gallery" class="gallery">
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="/Bilder/Rudolfs BMW-low.JPG" alt="Beispielbild 1">
+                    <div class="overlay-text">Cars</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/Bilder/Reben-low.JPG" alt="Beispielbild 2">
+                    <div class="overlay-text" style="color: black;">Nature</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="bild3.jpg" alt="Beispielbild 3">
+                    <div class="overlay-text">Portraits</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/Bilder/Haus-low.JPG" alt="Beispielbild 4">
+                    <div class="overlay-text" style="color: black;">Architecture</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/Bilder/Festival.JPG" alt="Beispielbild 5">
+                    <div class="overlay-text">Events</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="/Bilder/Mischpult-low.JPG" alt="Beispielbild 6">
+                    <div class="overlay-text" style="color: black;">And much more</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer-Bereich -->
+        <footer>
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <p>
+                        <a href="https://www.instagram.com/made_in_baden/" class="icon"><i class="fa fa-instagram"></i></a>
+                        <a href="" class="icon"><i class="fa fa-linkedin"></i></a>
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h3>About</h3>
+                    <p class="about">
+                        Mein Name ist Tobi. Ich bin ein Technik interessierter Hobbyfotograf mit der Liebe zur Perfektion. 
+                        Neben meinem Vollzeitjob als Fachinformatiker liebe ich es alle Möglichkeiten zu nutzen um einen guten Shot aus einem kleinen Teil meines Lebens digital zu verfestigen und hier mit euch zu teilen.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h3>More</h3>
+                    <ul class="footer-list">
+                        <li><a href="">Impressum</a></li>
+                        <li><a href="">Datenschutzerklärung</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="bottom">&copy; 2024 Foto Baden. Alle Rechte vorbehalten.</p>
+        </footer>
+    </section>
 </body>
 </html>
